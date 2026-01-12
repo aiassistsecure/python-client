@@ -1,7 +1,7 @@
 """
-AiAssist Python SDK v1 - Lightweight API Client
+AiAssist Secure Python SDK v1 - Lightweight API Client
 
-Simple, lightweight Python client for the AiAssist AI API.
+Simple, lightweight Python client for the AiAssist Secure AI API.
 Only dependency: httpx
 
 Usage:
@@ -30,6 +30,9 @@ from .client import (
     Model,
     Workspace,
     WorkspaceMessage,
+    WorkspaceCreateResponse,
+    SendMessageResponse,
+    WorkspaceByClientResponse,
 )
 
 __version__ = "1.0.0"
@@ -48,4 +51,7 @@ __all__ = [
     "Model",
     "Workspace",
     "WorkspaceMessage",
+    "WorkspaceCreateResponse",
+    "SendMessageResponse",
+    "WorkspaceByClientResponse",
 ]
