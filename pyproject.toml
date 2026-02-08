@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "aiassist"
-version = "1.0.0"
+version = "1.0.1"
 description = "AiAssist Python SDK - Lightweight API client for AI chat integration"
 readme = "README.md"
 license = "MIT"
